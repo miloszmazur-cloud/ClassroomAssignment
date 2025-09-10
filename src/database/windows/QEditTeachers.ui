@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>918</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>-10</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="accessibleDescription">
+    <string/>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>Add preferences</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ComeBackButton">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>550</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>COME BACK</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>131</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Edit Teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBoxTeachers"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="loadTeachers">
+      <property name="text">
+       <string>Load</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>480</y>
+     <width>261</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_11">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Delete Teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBoxDeleteTeachers"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="deleteTeacher">
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="addTeacher">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>400</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Teacher</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>131</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>Screen availability</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="TScreenTrue">
+      <property name="text">
+       <string>True</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="TScreenFalse">
+      <property name="text">
+       <string>False</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="valuseTScreen">
+      <property name="text">
+       <string>True/False</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>131</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEditName"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="saveName">
+      <property name="text">
+       <string>save</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="valueName">
+      <property name="text">
+       <string>Teacher name</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>702</x>
+     <y>80</y>
+     <width>177</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_19">
+        <property name="text">
+         <string>size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSubject1Size"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveSubject1Size">
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="valueSubject1Size">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_13">
+      <item>
+       <widget class="QLabel" name="label_20">
+        <property name="text">
+         <string>size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSubject2Size"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveSubject2Size">
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="valueSubject2Size">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_14">
+      <item>
+       <widget class="QLabel" name="label_21">
+        <property name="text">
+         <string>size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSubject3Size"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveSubject3Size">
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="valueSubject3Size">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_15">
+      <item>
+       <widget class="QLabel" name="label_22">
+        <property name="text">
+         <string>size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSubject4Size"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveSubject4Size">
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="valueSubject4Size">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_16">
+      <item>
+       <widget class="QLabel" name="label_23">
+        <property name="text">
+         <string>size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSubject5Size"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveSubject5Size">
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="valueSubject5Size">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_17">
+      <item>
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>size</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditSubject6Size"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveSubject6Size">
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="valueSubject6Size">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="labelSumOfStudents">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>340</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>total number of students: 00</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>539</x>
+     <y>87</y>
+     <width>151</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QLabel" name="valueSubject1">
+      <property name="text">
+       <string>subject name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="valueSubject2">
+      <property name="text">
+       <string>subject name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="valueSubject3">
+      <property name="text">
+       <string>subject name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="valueSubject4">
+      <property name="text">
+       <string>subject name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="valueSubject5">
+      <property name="text">
+       <string>subject name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="valueSubject6">
+      <property name="text">
+       <string>subject name</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>239</x>
+     <y>87</y>
+     <width>52</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_7">
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string> subject 1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string> subject 2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string> subject 3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string> subject 4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string> subject 5</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string> subject 6</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="saveSubject3">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>180</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxSubject2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>140</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxSubject5">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>260</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveSubject1">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>100</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveSubject2">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>140</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveSubject6">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>300</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveSubject5">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>260</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxSubject6">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>300</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveSubject4">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>220</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>save</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxSubject1">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>100</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxSubject4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxSubject3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>180</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>350</y>
+     <width>141</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Classroom Preference</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="classroomPreferenceComboBox"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="saveClassroomPreference">
+      <property name="text">
+       <string>save</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPreferenceLabel">
+      <property name="text">
+       <string>no preference</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

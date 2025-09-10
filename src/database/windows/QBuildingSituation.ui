@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>962</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Situation in the building</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ComeBackButton">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>550</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>COME BACK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>occupied classess</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>480</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>empty classrooms</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>90</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>notifications</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>class name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>teacher</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>110</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>classroom</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>110</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>empty places</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>131</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="teacherName1">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName2">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName3">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName4">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName5">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName6">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName7">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName8">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName9">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName10">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="teacherName11">
+      <property name="text">
+       <string>teacher</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>140</y>
+     <width>61</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="classroomName1">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName2">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName3">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName4">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName5">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName6">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName7">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName8">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName9">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName10">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomName11">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>140</y>
+     <width>41</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLabel" name="classroomPlaces1">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces2">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces3">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces4">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces5">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces6">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces7">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces8">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces9">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces10">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classroomPlaces11">
+      <property name="text">
+       <string>places</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>130</y>
+     <width>461</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QLabel" name="notification1">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification2">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification3">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification4">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification5">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification6">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification7">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification8">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification9">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification10">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="notification11">
+      <property name="text">
+       <string>notification</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>151</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="className1">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className2">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className3">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className4">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className5">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className6">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className7">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className8">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className9">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className10">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="className11">
+      <property name="text">
+       <string>class name</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>510</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="emptyClassroom1">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="emptyClassroom2">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="emptyClassroom3">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="emptyClassroom4">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="emptyClassroom5">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="emptyClassroom6">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="emptyClassroom7">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLabel" name="emptyClassroom8">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="emptyClassroom9">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="emptyClassroom10">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="emptyClassroom11">
+      <property name="text">
+       <string>classroom</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
